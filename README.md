@@ -49,10 +49,12 @@ Security: Enterprise-grade credential management via AWS Secrets Manager.
 git clone https://github.com/your-username/lakshya-ai.git
 cd lakshya-ai
 pip install -r requirements.txt
-2. Configuration
+
+3. Configuration
 Create a .env file from the template and configure your AWS credentials:
 cp .env.example .env
 # Add your AWS_ACCESS_KEY, AWS_SECRET_KEY, and REGION
+
 3. Launch the Dashboard
 streamlit run app.py
 
