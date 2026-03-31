@@ -50,12 +50,16 @@ git clone https://github.com/abasahebpatil2025/Lakshya-AI-Financial-Intelligence
 cd lakshya-ai
 pip install -r requirements.txt
 
-3. Configuration
-Create a .env file from the template and configure your AWS credentials:
+2. Configuration
+Create a .env file from the provided template to manage your external API keys:
 cp .env.example .env
-# Add your AWS_ACCESS_KEY, AWS_SECRET_KEY, and REGION
+External APIs: Open .env and add your ALPHA_VANTAGE_API_KEY and POLYGON_API_KEY.
+AWS Credentials: This project is designed to use local AWS profiles. If you haven't configured your credentials yet, run:
+aws configure
+Note: The system will automatically use your default profile. You can change the region or profile name in the .env file.
 
 3. Launch the Dashboard
+Run the Streamlit application to start the visual analysis interface:
 streamlit run app.py
 
 📋 Professional Roadmap (Research Analyst Vision)
