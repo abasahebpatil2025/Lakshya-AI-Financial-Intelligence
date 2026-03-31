@@ -44,8 +44,9 @@ graph TD
 | **Risk Manager** | Synthesis & Compliance | Confidence scoring and final recommendation logic. |
 
 🚀 Getting Started
+
 1. Installation
- git clone https://github.com/your-username/lakshya-ai.git
+git clone https://github.com/your-username/lakshya-ai.git
 cd lakshya-ai
 pip install -r requirements.txt
 2. Configuration
@@ -66,6 +67,7 @@ Phase 3: Portfolio-level analysis and SEBI-compliant reporting formats.
 Phase 4: Backtesting engine to calibrate agentic confidence scores.
 
 📁 Project Structure
+
 app.py: The Main Web Interface.
 
 agents/: Core logic for Technical, Fundamental, and Risk agents.
@@ -77,6 +79,7 @@ models/: Data models and schema definitions.
 diagrams/: High-resolution architecture diagrams.
 
 ⚠️ Compliance & Disclaimer
+
 Lakshya AI is an analytical research tool.
 
 Not SEBI Registered: This platform provides data-driven analysis for educational purposes, NOT direct financial advice.
