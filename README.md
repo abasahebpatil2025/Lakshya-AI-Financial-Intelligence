@@ -25,7 +25,7 @@ Data Source: Real-time integration via yfinance & custom indicators.
 
 Security: Enterprise-grade credential management via AWS Secrets Manager.
 
-graph TD
+    graph TD
     A[User Input/Ticker] --> B[Main Orchestrator]
     B --> C[Stock Data Service]
     C --> D[Technical Agent]
