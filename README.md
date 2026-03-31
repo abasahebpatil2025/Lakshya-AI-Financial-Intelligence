@@ -46,7 +46,7 @@ Security: Enterprise-grade credential management via AWS Secrets Manager.
 🚀 Getting Started
 
 1. Installation
-git clone https://github.com/your-username/lakshya-ai.git
+git clone https://github.com/abasahebpatil2025/Lakshya-AI-Financial-Intelligence.git
 cd lakshya-ai
 pip install -r requirements.txt
 
