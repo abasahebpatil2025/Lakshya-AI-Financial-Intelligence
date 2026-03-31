@@ -53,7 +53,7 @@ pip install -r requirements.txt
 Create a .env file from the template and configure your AWS credentials:
 cp .env.example .env
 # Add your AWS_ACCESS_KEY, AWS_SECRET_KEY, and REGION
-3.3. Launch the Dashboard
+3. Launch the Dashboard
 streamlit run app.py
 
 📋 Professional Roadmap (Research Analyst Vision)
